@@ -40,7 +40,6 @@
 		E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeableWebview.h; sourceTree = "<group>"; };
 		E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeableWebview.m; sourceTree = "<group>"; };
 		E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeableWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E29EA2471B33517A00EE4B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				E29EA2381B33517A00EE4B2B /* RNBridgeableWebview */,
-				E29EA2451B33517A00EE4B2B /* RNBridgeableWebviewTests */,
 				E29EA2371B33517A00EE4B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,22 +85,6 @@
 				E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */,
 			);
 			path = RNBridgeableWebview;
-			sourceTree = "<group>";
-		};
-		E29EA2451B33517A00EE4B2B /* RNBridgeableWebviewTests */ = {
-			isa = PBXGroup;
-			children = (
-				E29EA2461B33517A00EE4B2B /* Supporting Files */,
-			);
-			path = RNBridgeableWebviewTests;
-			sourceTree = "<group>";
-		};
-		E29EA2461B33517A00EE4B2B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E29EA2471B33517A00EE4B2B /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +344,7 @@
 				E29EA24C1B33517A00EE4B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E29EA24D1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebviewTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +353,7 @@
 				E29EA24F1B33517A00EE4B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

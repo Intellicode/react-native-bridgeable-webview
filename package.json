@@ -1,0 +1,19 @@
+{
+  "name": "react-native-bridgeable-webview",
+  "version": "0.0.1",
+  "description": "A react-native webview with bridge to react-native code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intellicode/react-native-bridgeable-webview.git"
+  },
+  "author": "Tom Hastjarjanto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Intellicode/react-native-bridgeable-webview/issues"
+  },
+  "homepage": "https://github.com/Intellicode/react-native-bridgeable-webview#readme"
+}
