@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E29EA23A1B33517A00EE4B2B /* RNBridgeableWebview.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */; };
+		E29EA23C1B33517A00EE4B2B /* RNBridgeableWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */; };
+		E29EA2421B33517A00EE4B2B /* libRNBridgeableWebview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E29EA2431B33517A00EE4B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29EA22E1B33517A00EE4B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29EA2351B33517A00EE4B2B;
+			remoteInfo = RNBridgeableWebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E29EA2341B33517A00EE4B2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E29EA23A1B33517A00EE4B2B /* RNBridgeableWebview.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBridgeableWebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeableWebview.h; sourceTree = "<group>"; };
+		E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeableWebview.m; sourceTree = "<group>"; };
+		E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeableWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29EA2471B33517A00EE4B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29EA2331B33517A00EE4B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29EA23E1B33517A00EE4B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29EA2421B33517A00EE4B2B /* libRNBridgeableWebview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E29EA22D1B33517A00EE4B2B = {
+			isa = PBXGroup;
+			children = (
+				E29EA2381B33517A00EE4B2B /* RNBridgeableWebview */,
+				E29EA2451B33517A00EE4B2B /* RNBridgeableWebviewTests */,
+				E29EA2371B33517A00EE4B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29EA2371B33517A00EE4B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */,
+				E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29EA2381B33517A00EE4B2B /* RNBridgeableWebview */ = {
+			isa = PBXGroup;
+			children = (
+				E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */,
+				E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */,
+			);
+			path = RNBridgeableWebview;
+			sourceTree = "<group>";
+		};
+		E29EA2451B33517A00EE4B2B /* RNBridgeableWebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E29EA2461B33517A00EE4B2B /* Supporting Files */,
+			);
+			path = RNBridgeableWebviewTests;
+			sourceTree = "<group>";
+		};
+		E29EA2461B33517A00EE4B2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E29EA2471B33517A00EE4B2B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29EA2351B33517A00EE4B2B /* RNBridgeableWebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29EA24A1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebview" */;
+			buildPhases = (
+				E29EA2321B33517A00EE4B2B /* Sources */,
+				E29EA2331B33517A00EE4B2B /* Frameworks */,
+				E29EA2341B33517A00EE4B2B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBridgeableWebview;
+			productName = RNBridgeableWebview;
+			productReference = E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E29EA2401B33517A00EE4B2B /* RNBridgeableWebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29EA24D1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebviewTests" */;
+			buildPhases = (
+				E29EA23D1B33517A00EE4B2B /* Sources */,
+				E29EA23E1B33517A00EE4B2B /* Frameworks */,
+				E29EA23F1B33517A00EE4B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29EA2441B33517A00EE4B2B /* PBXTargetDependency */,
+			);
+			name = RNBridgeableWebviewTests;
+			productName = RNBridgeableWebviewTests;
+			productReference = E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29EA22E1B33517A00EE4B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tom Hastjarjanto";
+				TargetAttributes = {
+					E29EA2351B33517A00EE4B2B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E29EA2401B33517A00EE4B2B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = E29EA2311B33517A00EE4B2B /* Build configuration list for PBXProject "RNBridgeableWebview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E29EA22D1B33517A00EE4B2B;
+			productRefGroup = E29EA2371B33517A00EE4B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29EA2351B33517A00EE4B2B /* RNBridgeableWebview */,
+				E29EA2401B33517A00EE4B2B /* RNBridgeableWebviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29EA23F1B33517A00EE4B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29EA2321B33517A00EE4B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29EA23C1B33517A00EE4B2B /* RNBridgeableWebview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29EA23D1B33517A00EE4B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E29EA2441B33517A00EE4B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29EA2351B33517A00EE4B2B /* RNBridgeableWebview */;
+			targetProxy = E29EA2431B33517A00EE4B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E29EA2481B33517A00EE4B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E29EA2491B33517A00EE4B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29EA24B1B33517A00EE4B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E29EA24C1B33517A00EE4B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E29EA24E1B33517A00EE4B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNBridgeableWebviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E29EA24F1B33517A00EE4B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNBridgeableWebviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29EA2311B33517A00EE4B2B /* Build configuration list for PBXProject "RNBridgeableWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29EA2481B33517A00EE4B2B /* Debug */,
+				E29EA2491B33517A00EE4B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29EA24A1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29EA24B1B33517A00EE4B2B /* Debug */,
+				E29EA24C1B33517A00EE4B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E29EA24D1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29EA24E1B33517A00EE4B2B /* Debug */,
+				E29EA24F1B33517A00EE4B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29EA22E1B33517A00EE4B2B /* Project object */;
+}
