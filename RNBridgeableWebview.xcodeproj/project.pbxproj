@@ -7,18 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E29EA2421B33517A00EE4B2B /* libRNBridgeableWebview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */; };
+		E29EA2601B374B2000EE4B2B /* RCTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25D1B374B2000EE4B2B /* RCTWebView.m */; };
+		E29EA2611B374B2000EE4B2B /* RCTWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E29EA2431B33517A00EE4B2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E29EA22E1B33517A00EE4B2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E29EA2351B33517A00EE4B2B;
-			remoteInfo = RNBridgeableWebview;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E29EA2341B33517A00EE4B2B /* CopyFiles */ = {
@@ -34,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBridgeableWebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeableWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29EA25C1B374B2000EE4B2B /* RCTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWebView.h; sourceTree = "<group>"; };
+		E29EA25D1B374B2000EE4B2B /* RCTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWebView.m; sourceTree = "<group>"; };
+		E29EA25E1B374B2000EE4B2B /* RCTWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWebViewManager.h; sourceTree = "<group>"; };
+		E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWebViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,20 +39,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E29EA23E1B33517A00EE4B2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E29EA2421B33517A00EE4B2B /* libRNBridgeableWebview.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E29EA22D1B33517A00EE4B2B = {
 			isa = PBXGroup;
 			children = (
+				E29EA25C1B374B2000EE4B2B /* RCTWebView.h */,
+				E29EA25D1B374B2000EE4B2B /* RCTWebView.m */,
+				E29EA25E1B374B2000EE4B2B /* RCTWebViewManager.h */,
+				E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */,
 				E29EA2371B33517A00EE4B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */,
-				E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,24 +81,6 @@
 			productReference = E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E29EA2401B33517A00EE4B2B /* RNBridgeableWebviewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E29EA24D1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebviewTests" */;
-			buildPhases = (
-				E29EA23D1B33517A00EE4B2B /* Sources */,
-				E29EA23E1B33517A00EE4B2B /* Frameworks */,
-				E29EA23F1B33517A00EE4B2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E29EA2441B33517A00EE4B2B /* PBXTargetDependency */,
-			);
-			name = RNBridgeableWebviewTests;
-			productName = RNBridgeableWebviewTests;
-			productReference = E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -120,9 +91,6 @@
 				ORGANIZATIONNAME = "Tom Hastjarjanto";
 				TargetAttributes = {
 					E29EA2351B33517A00EE4B2B = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					E29EA2401B33517A00EE4B2B = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -140,45 +108,21 @@
 			projectRoot = "";
 			targets = (
 				E29EA2351B33517A00EE4B2B /* RNBridgeableWebview */,
-				E29EA2401B33517A00EE4B2B /* RNBridgeableWebviewTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		E29EA23F1B33517A00EE4B2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E29EA2321B33517A00EE4B2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E29EA23D1B33517A00EE4B2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E29EA2601B374B2000EE4B2B /* RCTWebView.m in Sources */,
+				E29EA2611B374B2000EE4B2B /* RCTWebViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E29EA2441B33517A00EE4B2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E29EA2351B33517A00EE4B2B /* RNBridgeableWebview */;
-			targetProxy = E29EA2431B33517A00EE4B2B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E29EA2481B33517A00EE4B2B /* Debug */ = {
@@ -216,6 +160,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +202,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -277,38 +233,6 @@
 			};
 			name = Release;
 		};
-		E29EA24E1B33517A00EE4B2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNBridgeableWebviewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E29EA24F1B33517A00EE4B2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNBridgeableWebviewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -326,15 +250,6 @@
 			buildConfigurations = (
 				E29EA24B1B33517A00EE4B2B /* Debug */,
 				E29EA24C1B33517A00EE4B2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E29EA24D1B33517A00EE4B2B /* Build configuration list for PBXNativeTarget "RNBridgeableWebviewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E29EA24E1B33517A00EE4B2B /* Debug */,
-				E29EA24F1B33517A00EE4B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
