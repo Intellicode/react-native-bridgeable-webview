@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E29EA23A1B33517A00EE4B2B /* RNBridgeableWebview.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */; };
-		E29EA23C1B33517A00EE4B2B /* RNBridgeableWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */; };
 		E29EA2421B33517A00EE4B2B /* libRNBridgeableWebview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +27,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E29EA23A1B33517A00EE4B2B /* RNBridgeableWebview.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBridgeableWebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeableWebview.h; sourceTree = "<group>"; };
-		E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeableWebview.m; sourceTree = "<group>"; };
 		E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeableWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,7 +59,6 @@
 		E29EA22D1B33517A00EE4B2B = {
 			isa = PBXGroup;
 			children = (
-				E29EA2381B33517A00EE4B2B /* RNBridgeableWebview */,
 				E29EA2371B33517A00EE4B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,15 +70,6 @@
 				E29EA2411B33517A00EE4B2B /* RNBridgeableWebviewTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E29EA2381B33517A00EE4B2B /* RNBridgeableWebview */ = {
-			isa = PBXGroup;
-			children = (
-				E29EA2391B33517A00EE4B2B /* RNBridgeableWebview.h */,
-				E29EA23B1B33517A00EE4B2B /* RNBridgeableWebview.m */,
-			);
-			path = RNBridgeableWebview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29EA23C1B33517A00EE4B2B /* RNBridgeableWebview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
