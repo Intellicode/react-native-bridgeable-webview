@@ -23,8 +23,7 @@ var keyMirror = require('keyMirror');
 var requireNativeComponent = require('requireNativeComponent');
 
 var PropTypes = React.PropTypes;
-var RCTWebViewManager = require('NativeModules').WebViewManager;
-
+var RCTWebViewManager = require('NativeModules').RNBridgeableWebViewManager;
 var BGWASH = 'rgba(255,255,255,0.8)';
 var RCT_WEBVIEW_REF = 'webview';
 
@@ -130,7 +129,7 @@ var WebView = React.createClass({
       );
     } else if (this.state.viewState !== WebViewState.IDLE) {
       console.error(
-        'RCTWebView invalid state encountered: ' + this.state.loading
+        'RNBridgeableWebView invalid state encountered: ' + this.state.loading
       );
     }
 
@@ -142,7 +141,7 @@ var WebView = React.createClass({
     }
 
     var webView =
-      <RCTWebView
+      <RNBridgeableWebView
         ref={RCT_WEBVIEW_REF}
         key="webViewKey"
         style={webViewStyles}
@@ -221,7 +220,7 @@ var WebView = React.createClass({
   }
 });
 
-var RCTWebView = requireNativeComponent('RCTWebView', WebView);
+var RNBridgeableWebView = requireNativeComponent('RNBridgeableWebView', WebView);
 
 var styles = StyleSheet.create({
   container: {

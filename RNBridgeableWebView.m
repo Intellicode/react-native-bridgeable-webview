@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import "RCTWebView.h"
+#import "RNBridgeableWebView.h"
 
 #import <UIKit/UIKit.h>
 
@@ -18,11 +18,11 @@
 #import "RCTView.h"
 #import "UIView+React.h"
 
-@interface RCTWebView () <UIWebViewDelegate, RCTAutoInsetsProtocol>
+@interface RNBridgeableWebView () <UIWebViewDelegate, RCTAutoInsetsProtocol>
 
 @end
 
-@implementation RCTWebView
+@implementation RNBridgeableWebView
 {
   RCTEventDispatcher *_eventDispatcher;
   UIWebView *_webView;

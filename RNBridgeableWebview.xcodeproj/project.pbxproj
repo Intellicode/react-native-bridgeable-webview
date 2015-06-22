@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E29EA2601B374B2000EE4B2B /* RCTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25D1B374B2000EE4B2B /* RCTWebView.m */; };
-		E29EA2611B374B2000EE4B2B /* RCTWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */; };
+		E29EA2601B374B2000EE4B2B /* RNBridgeableWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25D1B374B2000EE4B2B /* RNBridgeableWebView.m */; };
+		E29EA2611B374B2000EE4B2B /* RNBridgeableWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EA25F1B374B2000EE4B2B /* RNBridgeableWebViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		E29EA2361B33517A00EE4B2B /* libRNBridgeableWebview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBridgeableWebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E29EA25C1B374B2000EE4B2B /* RCTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWebView.h; sourceTree = "<group>"; };
-		E29EA25D1B374B2000EE4B2B /* RCTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWebView.m; sourceTree = "<group>"; };
-		E29EA25E1B374B2000EE4B2B /* RCTWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWebViewManager.h; sourceTree = "<group>"; };
-		E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWebViewManager.m; sourceTree = "<group>"; };
+		E29EA25C1B374B2000EE4B2B /* RNBridgeableWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBridgeableWebView.h; sourceTree = "<group>"; };
+		E29EA25D1B374B2000EE4B2B /* RNBridgeableWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBridgeableWebView.m; sourceTree = "<group>"; };
+		E29EA25E1B374B2000EE4B2B /* RNBridgeableWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBridgeableWebViewManager.h; sourceTree = "<group>"; };
+		E29EA25F1B374B2000EE4B2B /* RNBridgeableWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBridgeableWebViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +45,10 @@
 		E29EA22D1B33517A00EE4B2B = {
 			isa = PBXGroup;
 			children = (
-				E29EA25C1B374B2000EE4B2B /* RCTWebView.h */,
-				E29EA25D1B374B2000EE4B2B /* RCTWebView.m */,
-				E29EA25E1B374B2000EE4B2B /* RCTWebViewManager.h */,
-				E29EA25F1B374B2000EE4B2B /* RCTWebViewManager.m */,
+				E29EA25C1B374B2000EE4B2B /* RNBridgeableWebView.h */,
+				E29EA25D1B374B2000EE4B2B /* RNBridgeableWebView.m */,
+				E29EA25E1B374B2000EE4B2B /* RNBridgeableWebViewManager.h */,
+				E29EA25F1B374B2000EE4B2B /* RNBridgeableWebViewManager.m */,
 				E29EA2371B33517A00EE4B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,8 +117,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29EA2601B374B2000EE4B2B /* RCTWebView.m in Sources */,
-				E29EA2611B374B2000EE4B2B /* RCTWebViewManager.m in Sources */,
+				E29EA2601B374B2000EE4B2B /* RNBridgeableWebView.m in Sources */,
+				E29EA2611B374B2000EE4B2B /* RNBridgeableWebViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

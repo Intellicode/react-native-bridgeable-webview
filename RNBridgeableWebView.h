@@ -11,7 +11,7 @@
 
 @class RCTEventDispatcher;
 
-@interface RCTWebView : RCTView
+@interface RNBridgeableWebView : RCTView
 
 @property (nonatomic, strong) NSURL *URL;
 @property (nonatomic, assign) UIEdgeInsets contentInset;

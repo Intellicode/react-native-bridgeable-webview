@@ -9,6 +9,6 @@
 
 #import "RCTViewManager.h"
 
-@interface RCTWebViewManager : RCTViewManager
+@interface RNBridgeableWebViewManager : RCTViewManager
 
 @end
