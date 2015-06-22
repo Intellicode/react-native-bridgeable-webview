@@ -155,7 +155,7 @@ var WebView = React.createClass({
         onLoadingStart={this.onLoadingStart}
         onLoadingFinish={this.onLoadingFinish}
         onLoadingError={this.onLoadingError}
-        onWebviewMessageSent={this.onWebviewMessageSent}
+        onWebViewMessageSent={this.onWebViewMessageSent}
       />;
 
     return (
@@ -213,9 +213,9 @@ var WebView = React.createClass({
     this.updateNavigationState(event);
   },
 
-  onWebviewMessageSent: function(event: Event) {
-    if (this.props.onWebviewMessageSent) {
-      this.props.onWebviewMessageSent(event.nativeEvent);
+  onWebViewMessageSent: function(event: Event) {
+    if (this.props.onWebViewMessageSent) {
+      this.props.onWebViewMessageSent(event.nativeEvent);
     }
   }
 });

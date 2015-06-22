@@ -22,6 +22,8 @@
 
 @end
 
+NSString *const RNBridgeableWebViewMessageSent = @"messageSent";
+
 @implementation RNBridgeableWebView
 {
   RCTEventDispatcher *_eventDispatcher;
@@ -127,10 +129,21 @@
 #pragma mark - UIWebViewDelegate methods
 
 static NSString *const RCTJSAJAXScheme = @"react-ajax";
+static NSString *const RNBridgeScheme = @"react-message";
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request
  navigationType:(UIWebViewNavigationType)navigationType
 {
+  if ([request.URL.scheme isEqualToString:RNBridgeScheme]) {
+    NSMutableDictionary *event = [self baseEvent];
+    [event addEntriesFromDictionary: @{
+      @"url": [request.URL absoluteString],
+      @"navigationType": @(navigationType)
+    }];
+    [_eventDispatcher sendInputEventWithName:RNBridgeableWebViewMessageSent body:event];
+    return false;
+  }
+
   // We have this check to filter out iframe requests and whatnot
   BOOL isTopFrame = [request.URL isEqual:request.mainDocumentURL];
   if (isTopFrame) {

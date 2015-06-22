@@ -31,6 +31,15 @@ RCT_EXPORT_VIEW_PROPERTY(contentInset, UIEdgeInsets);
 RCT_EXPORT_VIEW_PROPERTY(automaticallyAdjustContentInsets, BOOL);
 RCT_EXPORT_VIEW_PROPERTY(shouldInjectAJAXHandler, BOOL);
 
+- (NSDictionary *)customDirectEventTypes
+{
+    return @{
+      RNBridgeableWebViewMessageSent: @{
+        @"registrationName": @"onWebViewMessageSent"
+      }
+    };
+}
+
 - (NSDictionary *)constantsToExport
 {
   return @{

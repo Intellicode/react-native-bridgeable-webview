@@ -9,6 +9,8 @@
 
 #import "RCTView.h"
 
+extern NSString *const RNBridgeableWebViewMessageSent;
+
 @class RCTEventDispatcher;
 
 @interface RNBridgeableWebView : RCTView
