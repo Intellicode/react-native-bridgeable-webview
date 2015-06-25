@@ -1,6 +1,6 @@
 {
   "name": "react-native-bridgeable-webview",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A react-native webview with bridge to react-native code",
   "main": "BridgeableWebView.ios.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "react-native": "^0.6.0"
   },
   "peerDependencies": {
-    "react-native": "^0.5.0"
+    "react-native": "^0.6.0"
   }
 }
