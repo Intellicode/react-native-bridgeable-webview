@@ -6,7 +6,7 @@ Requires react-native == 0.6
 
 ### Add it to your project
 
-1. Run `npm install react-native-video --save`
+1. Run `npm install react-native-bridgeable-webview --save`
 2. Open your project in XCode, right click on `Libraries` and click `Add Files to "Your Project Name"`
    * ![Screenshot](http://url.brentvatne.ca/jQp8.png) ![Screenshot](http://url.brentvatne.ca/1gqUD.png) (use the RNBridgeableWebview project rather than the one pictured in screenshot).
 3. Add `libRNBridgeableWebview.a` to `Build Phases -> Link Binary With Libraries`
