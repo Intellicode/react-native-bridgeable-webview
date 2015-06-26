@@ -1,6 +1,6 @@
 {
   "name": "react-native-bridgeable-webview",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A react-native webview with bridge to react-native code",
   "main": "BridgeableWebView.ios.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/Intellicode/react-native-bridgeable-webview#readme",
   "devDependencies": {
-    "react-native": "^0.7.0-rc"
+    "react-native": "^0.6.0"
   },
   "peerDependencies": {
-    "react-native": "^0.7.0-rc"
+    "react-native": "^0.6.0"
   }
 }

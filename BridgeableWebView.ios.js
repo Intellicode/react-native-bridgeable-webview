@@ -254,5 +254,5 @@ var styles = StyleSheet.create({
     backgroundColor: '#ffffff',
   }
 });
-dsadsadsadas@$@#@
+
 module.exports = WebView;
