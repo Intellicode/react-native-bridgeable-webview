@@ -1,6 +1,6 @@
 ## react-native-bridgeable-webview
 
-A <WebView> component replacement for react-native
+A `<WebView>` component replacement for react-native
 
 Requires react-native == 0.6
 
@@ -15,13 +15,15 @@ Requires react-native == 0.6
 
 
 ## Usage
-```var WebView = require('react-native-bridgeable-webview');```
+```
+var WebView = require('react-native-bridgeable-webview');
+```
 
-It is the exact same component as ```WebView``` except it offers a custom url scheme that acts as message bridge and a method ```onWebViewMessageSent``` to respond to calls made from the webview.
+It is the exact same component as `WebView` except it offers a custom url scheme that acts as message bridge and a method `onWebViewMessageSent` to respond to calls made from the webview.
 
-In your react-native code you can include the following snippet as a ```WebView``` replacement:
+In your react-native code you can include the following snippet as a `WebView` replacement:
 
-```js
+```jsx
   <WebView
     ref={WEBVIEW_REF}
     automaticallyAdjustContentInsets={false}
