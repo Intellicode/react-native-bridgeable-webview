@@ -1,5 +1,7 @@
 ## react-native-bridgeable-webview
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Intellicode/react-native-bridgeable-webview.svg)](https://greenkeeper.io/)
+
 A `<WebView>` component replacement for react-native
 
 Requires react-native == 0.6
